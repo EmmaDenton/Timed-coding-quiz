@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+<a href="./highscores.html"><button id="highscore-btn">Highscores</button></a>
+<div id="timer">60</div>
+<div id="timesup">Time is up!</div>
+
+<div id="start-container">
+    <h1>Welcome to the Quiz</h1>
+    <button id="start-btn">Start Quiz</button>
+</div>
+
+<div id="quiz-container">
+    <h1 id="question">Question goes here</h1>
+    <ul id="options">
+        <li><button class="qz-option">Option 1</button></li>
+        <li><button class="qz-option">Option 2</button></li>
+        <li><button class="qz-option">Option 3</button></li>
+        <li><button class="qz-option">Option 4</button></li>
+    </ul>
+    <h6 id="answer-correct">Correct!</h6>
+    <h6 id="answer-incorrect">Wrong! -10 seconds</h6>
+</div>
+
+<section id="finish-quiz" style="display: none;">
+    <h2 id="final-score"></h2>
+    <input type="text" id="initials" placeholder="Your Initials">
+    <button id="submit-initials">Submit</button>
+</section>
+
+<script src="./assets/Javascript/script.js"></script>
+</body>
+</html>
