@@ -2,6 +2,8 @@
 
 This project is a timed quiz with 10 questions about coding. The user has 60 seconds to complete the quiz. If they get a question wrong 10 seconds are deducted from their remaining time. When the finish the quiz they are able to submit their score along with their intials. The top 10 highscores are displayed on the Highscore page accesible from the link in the top left corner.
 
+Deployed link: https://emmadenton.github.io/Timed-coding-quiz/
+
 <img width="741" alt="Screenshot 2023-09-14 at 8 00 06 pm" src="https://github.com/EmmaDenton/Timed-coding-quiz/assets/141465015/9d53f1b1-a8d1-4cbe-901a-98fa5b5b639a">
 
 <img width="717" alt="Screenshot 2023-09-14 at 8 00 21 pm" src="https://github.com/EmmaDenton/Timed-coding-quiz/assets/141465015/69c11984-9cee-4532-a3bb-6b5488f81a35">
